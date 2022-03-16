@@ -1,0 +1,151 @@
+[[execs]]
+filename = "2022.cc"
+overwrite = { prob_id = "2022" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "bike.cc"
+overwrite = { prob_id = "bike" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "entrance.cc"
+overwrite = { prob_id = "entrance" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "entrance_bad_hash.cc"
+overwrite = { prob_id = "entrance" }
+tests = [
+   { testcase = "1", expect = "AC" },
+   { testcase = "2", expect = "AC" },
+   { testcase = "3", expect = "TLE" }
+]
+
+[[execs]]
+filename = "entrance_bst.cc"
+overwrite = { prob_id = "entrance" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "entrance_ymax_2m21.cc"
+overwrite = { prob_id = "entrance" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "entrance_ymax_1m.cc"
+overwrite = { prob_id = "entrance" }
+tests = [
+   { testcase = "1", expect = "AC" },
+   { testcase = "2", expect = "AC" },
+   { testcase = "3", expect = "WA" }
+]
+
+[[execs]]
+filename = "entrance_ymax_1m1.cc"
+overwrite = { prob_id = "entrance" }
+tests = [
+   { testcase = "1", expect = "AC" },
+   { testcase = "2", expect = "AC" },
+   { testcase = "3", expect = "WA" }
+]
+
+[[execs]]
+filename = "entrance_ymax_1m10.cc"
+overwrite = { prob_id = "entrance" }
+tests = [
+   { testcase = "1", expect = "AC" },
+   { testcase = "2", expect = "AC" },
+   { testcase = "3", expect = "WA" }
+]
+
+[[execs]]
+filename = "entrance_ymax_1m11.cc"
+overwrite = { prob_id = "entrance" }
+tests = [
+   { testcase = "1", expect = "AC" },
+   { testcase = "2", expect = "AC" },
+   { testcase = "3", expect = "WA" }
+]
+
+[[execs]]
+filename = "entrance_ymax_1m20.cc"
+overwrite = { prob_id = "entrance" }
+tests = [
+   { testcase = "1", expect = "AC" },
+   { testcase = "2", expect = "AC" },
+   { testcase = "3", expect = "WA" }
+]
+
+[[execs]]
+filename = "entrance_ymax_1m21.cc"
+overwrite = { prob_id = "entrance" }
+tests = [
+   { testcase = "1", expect = "AC" },
+   { testcase = "2", expect = "AC" },
+   { testcase = "3", expect = "WA" }
+]
+
+[[execs]]
+filename = "entrance_ymax_2m.cc"
+overwrite = { prob_id = "entrance" }
+tests = [
+   { testcase = "1", expect = "AC" },
+   { testcase = "2", expect = "AC" },
+   { testcase = "3", expect = "WA" }
+]
+
+[[execs]]
+filename = "entrance_ymax_2m1.cc"
+overwrite = { prob_id = "entrance" }
+tests = [
+   { testcase = "1", expect = "AC" },
+   { testcase = "2", expect = "AC" },
+   { testcase = "3", expect = "WA" }
+]
+
+[[execs]]
+filename = "entrance_ymax_2m10.cc"
+overwrite = { prob_id = "entrance" }
+tests = [
+   { testcase = "1", expect = "AC" },
+   { testcase = "2", expect = "AC" },
+   { testcase = "3", expect = "WA" }
+]
+
+[[execs]]
+filename = "entrance_ymax_2m11.cc"
+overwrite = { prob_id = "entrance" }
+tests = [
+   { testcase = "1", expect = "AC" },
+   { testcase = "2", expect = "AC" },
+   { testcase = "3", expect = "WA" }
+]
+
+[[execs]]
+filename = "entrance_ymax_2m20.cc"
+overwrite = { prob_id = "entrance" }
+tests = [
+   { testcase = "1", expect = "AC" },
+   { testcase = "2", expect = "AC" },
+   { testcase = "3", expect = "WA" }
+]
+
+[[execs]]
+filename = "entrance_n2r2.cc"
+overwrite = { prob_id = "entrance" }
+tests = [
+   { testcase = "1", expect = "AC" },
+   { testcase = "2", expect = "AC" }, ## ??? ???
+   { testcase = "3", expect = "TLE" }
+]
+
+[[execs]]
+filename = "keyboard.cc"
+overwrite = { prob_id = "keyboard" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "spy.cc"
+overwrite = { prob_id = "spy" }
+tests = [{ testcase = "all", expect = "AC" }]

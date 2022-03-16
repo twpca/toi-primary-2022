@@ -1,0 +1,35 @@
+.vscode
+*.exe
+*.o
+*.obj
+
+# python
+__pycache__/
+*.pyc
+*$py.class
+
+# java
+*.jar
+
+# vagrant
+.vagrant
+environments/cms/*.log
+
+# packing
+cms_artifact.zip
+cms_packing/
+
+# latex
+problem/universe.tex
+problem/problems.pdf
+problem/*.aux
+problem/*.log
+problem/*.out
+
+# generator
+generator/*.in
+generator/*.out
+
+# lualatex
+environments/lualatex/*.gz
+environments/lualatex/font

@@ -1,0 +1,19 @@
+[[execs]]
+filename = "bike.cpp"
+overwrite = { prob_id = "bike" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "bike_slow_io.cpp"
+overwrite = { prob_id = "bike" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "bike_overflow.cpp"
+overwrite = { prob_id = "bike" }
+tests = [
+    { testcase = "1", expect = "AC" },
+    { testcase = "2", expect = "RE" },
+    { testcase = "3", expect = "RE" },
+    { testcase = "4", expect = "RE" },
+]

@@ -1,0 +1,130 @@
+[[execs]]
+filename = "2022_adhoc.cpp"
+overwrite = { prob_id = "2022" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "2022_dp_bignum.py"
+tests = [
+  { testcase = "0", expect = "AC" },
+  { testcase = "1", expect = "AC" },
+  { testcase = "2", expect = "AC" },
+  { testcase = "3", expect = "TLE" },
+  # skip subtask 4, 5
+]
+[execs.overwrite]
+prob_id = "2022"
+compile = "echo 'OAO'"
+execute = "/usr/bin/env python3 2022_dp_bignum.py"
+
+[[execs]]
+filename = "2022_dp_bignum_cpp.cpp"
+overwrite = { prob_id = "2022" }
+tests = [
+  { testcase = "3", expect = "TLE" }, #??
+  # skip subtask 0, 1, 2, 4, 5
+]
+
+[[execs]]
+filename = "2022_dp_i32.cpp"
+overwrite = { prob_id = "2022" }
+tests = [
+  { testcase = "1", expect = "AC" },
+  { testcase = "2", expect = "WA" },
+  { testcase = "3", expect = "WA" },
+  # skip subtask 0, 4, 5
+]
+
+[[execs]]
+filename = "2022_dp_i64.cpp"
+overwrite = { prob_id = "2022" }
+tests = [
+  { testcase = "1", expect = "AC" },
+  { testcase = "2", expect = "AC" },
+  { testcase = "3", expect = "WA" },
+  # skip subtask 0, 4, 5
+]
+
+[[execs]]
+filename = "2022_dp_inf.cpp"
+overwrite = { prob_id = "2022" }
+tests = [
+  { testcase = "0", expect = "AC" },
+  { testcase = "1", expect = "AC" },
+  { testcase = "2", expect = "AC" },
+  { testcase = "3", expect = "AC" },
+  # skip subtask 4, 5
+]
+
+[[execs]]
+filename = "2022_permutation.cpp"
+overwrite = { prob_id = "2022" }
+tests = [
+  { testcase = "0", expect = "AC" },
+  { testcase = "1", expect = "AC" },
+  { testcase = "2", expect = "TLE" },
+  # skip subtask 3, 4, 5
+]
+
+[[execs]]
+filename = "bike.cpp"
+overwrite = { prob_id = "bike" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "entrance.cpp"
+overwrite = { prob_id = "entrance" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "keyboard.cpp"
+overwrite = { prob_id = "keyboard" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "keyboard_enum.cpp"
+overwrite = { prob_id = "keyboard" }
+tests = [
+  { testcase = "1", expect = "AC" },
+  # skip subtask 0, 2, 3
+]
+
+[[execs]]
+filename = "keyboard_greedy.cpp"
+overwrite = { prob_id = "keyboard" }
+tests = [
+  { testcase = "1", expect = "WA" },
+  { testcase = "2", expect = "WA" },
+  { testcase = "3", expect = "WA" },
+  # skip subtask 0
+]
+
+[[execs]]
+filename = "spy_adhoc.cpp"
+overwrite = { prob_id = "spy" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "spy_brute.cpp"
+overwrite = { prob_id = "spy" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "spy_dp.cpp"
+overwrite = { prob_id = "spy" }
+tests = [
+  { testcase = "1", expect = "AC" },
+  # ignore subtask 0, 2, 3, 4
+]
+
+[[execs]]
+filename = "spy_ore.cpp"
+overwrite = { prob_id = "spy" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "spy_test_all.cpp"
+overwrite = { prob_id = "spy" }
+tests = [
+  # ignore all tests
+]
